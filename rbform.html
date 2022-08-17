@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radio-button</title>
+  </head>
+  <body>
+    <!-- 6. In the form, add two radio buttons with grouping them for employee type(Salaried and own business) -->
+    <h3>
+      6. In the form, add two radio buttons with grouping them for employee
+      type(Salaried and own business)
+    </h3>
+    <form>
+      <!-- employee type -->
+      <div>
+        <label for="">Employee Type</label>
+
+        <input type="radio" name="employee type" id="salaried" />
+        <label for="salaried">Employee</label>
+
+        <input type="radio" name="employee type" id="own business" />
+        <label for="own business">CEO</label>
+      </div>
+    </form>
+
+    <!-- Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png) -->
+
+    <h3>7. Design form shown in the link</h3>
+
+    <form>
+        <!-- heading -->
+
+        <div>
+            <mark style="background-color: red; color: white;">
+                Yes! I want to subscribe to Mag-O-Zine
+            </mark>
+
+        </div>
+
+        <!-- name -->
+        <div>
+            <label for="FN">First Name</label>
+            <input type="text" id="FN" placeholder="Joe">
+            <label for="LN">Last Name</label>
+            <input type="text" id="LN" placeholder="Schenegeggie">
+            
+        </div>
+        <!-- Address -->
+        <div>
+            <label for="address">Address</label>
+            <textarea name="" id="address" cols="20" rows="5">1001 Washington Street</textarea>
+        </div>
+        <!-- city -->
+
+        <div>
+            <label for="city">City</label>
+            <input type="text" id="city" placeholder="Aufour">
+    
+
+          <!-- state -->
+     
+            <label for="state">State</label>
+            <input type="text" id="state" placeholder="CA">
+
+            <!-- Zip -->
+
+            <label for="zip">Zip</label>
+            <input type="number" id="zip" placeholder="99999">
+        </div>
+
+        <!--Subscribe for: checkbox element -->
+        <div>
+            <label for="">Subscribe for: </label>
+
+            <input type="checkbox" id="1year" checked disabled>
+            <label for="1year">1 year ($19.95)</label>
+
+            <input type="checkbox" id="2year">
+            <label for="2year">2 year ($35.00)</label>
+        </div>
+        <!-- send me checkboc element -->
+        <div>
+            <label for="">Send me more information about:</label>
+            <div>
+                <input type="checkbox"  id="computer" checked disabled>
+                <label for="computer">Computer_Zine</label>
+            </div>
+            <div>
+                <input type="checkbox" id="fishing">
+                <label for="fishing">Fishing_Zine</label>
+            </div>   
+
+            <div>
+                <input type="checkbox" id="cat"checked disabled>
+                <label for="cat" >Cat_O_Zine</label>
+            </div>
+        </div>
+
+        <!-- 8. Use the table tag to design given image -->
+
+        <h3>8. Use the table tag to design given image</h3>
+
+        <table style="border: 1px solid black; border-collapse: collapse; width: 50%;">
+
+            <div>
+                Health Chart
+            </div>
+    
+            <thead>
+                <tr>
+                    <th style="border: 1px solid black;" rowspan="2">State of Health</th>
+                    <th style="border: 1px solid black;" colspan="2">Fasting value</th>
+                    <th style="border: 1px solid black;" >After Eating</th>
+                </tr>
+                <tr>
+                    <th style="border: 1px solid black;">Minimum</th>
+                    <th style="border: 1px solid black;" >Maximum</th>
+                    <th style="border: 1px solid black;" >2 hours after eating</th>
+                </tr>
+
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid black; text-align: center">Healthy</td>
+                        <td style="border: 1px solid black; text-align: center">70</td>
+                        <td style="border: 1px solid black; text-align: center">100</td>
+                        <td style="border: 1px solid black; text-align: center">Less than 140</td>
+                    </tr> 
+                    
+                    <tr>
+                        <td style="border: 1px solid black; text-align: center">Pre-Diabetes</td>
+                        <td style="border: 1px solid black; text-align: center">101</td>
+                        <td style="border: 1px solid black; text-align: center">126</td>
+                        <td style="border: 1px solid black; text-align: center">140 to 200</td>
+                    </tr> 
+
+                    <tr>
+                        <td style="border: 1px solid black; text-align: center">Diabetes</td>
+                        <td style="border: 1px solid black; text-align: center">More than 126</td>
+                        <td style="border: 1px solid black; text-align: center">N/A</td>
+                        <td style="border: 1px solid black; text-align: center">More than 200</td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+ 
+
+    
+      
+  
+    </form>
+  </body>
+</html>
